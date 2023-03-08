@@ -14,6 +14,7 @@ public class Gestein {
     public String getName() {
         return hauptmineral;
     }
+    //hallo
     public String getHauptmineral() {
         return hauptmineral;
     }
