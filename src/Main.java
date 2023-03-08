@@ -5,8 +5,10 @@ public class Main {
         Gestein serpentinit = new Gestein("Serpentinit", 3.0,
                 "Serpentin", "Olivin");
 
+
         granit.werfen();
         serpentinit.zerbröseln();
+        System.out.println(granit.getDichte());
 
         // Schrank
         Schrank kleiderschrank = new Schrank("Kleiderschrank", 2, 2);
